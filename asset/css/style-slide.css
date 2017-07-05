@@ -1,0 +1,176 @@
+.banner {
+  position: relative;
+  z-index: 999;
+  overflow: hidden;
+}
+.banner-sub .box-banner-sub .txt-banner {
+  position: relative;
+  height: 100%;
+}
+.banner-sub .box-banner-sub .img-banner-sub {
+  position: absolute;
+  right: -150px;
+  display: block!important;
+}
+.banner-sub .box-banner-sub .img-banner-sub img {
+  display: block;
+}
+.banner-sub .box-banner-sub .cont-banner-sub {
+  position: absolute;
+  bottom: 290px;
+  left: -150px;
+  display: block!important;
+}
+.banner-sub .box-banner-sub .cont-banner-sub h2 {
+  font-family: "YuGothic-Medium", sans-serif;
+  font-size: 78px;
+  line-height: 1.22;
+  color: #fff;
+  text-shadow: 0 0 20px #000, 0 0 20px #000;
+  margin-bottom: 20px;
+  letter-spacing: -3px;
+}
+.banner-sub .box-banner-sub .cont-banner-sub p {
+  font-family: "DINCondensed-bold", sans-serif;
+  font-size: 33px;
+  line-height: 1;
+  color: #fff;
+  letter-spacing: 4px;
+  padding-left: 10px;
+}
+/* ----------------- */
+.banner-sub .box-banner-sub-slide{
+  background: transparent;
+}
+.banner-sub .box-banner-sub-slide .inner{
+  position: relative;
+}
+.banner-sub .img-box-banner-sub img {
+  width: 100%;
+}
+.banner-sub .box-banner-sub .img-banner-sub{
+  opacity: 1;
+  width: 100%;
+  z-index: 1;
+}
+.banner-sub .box-banner-sub .cont-banner-sub{
+  opacity: 1;
+  width: 100%;
+  z-index: 2;
+}
+.banner-sub .inner.devrama-slider,
+.banner-sub .projector,
+.banner-sub .primary-img{
+  width: 100% !important;
+}
+.banner-sub .primary-img img.lazy-background {
+  width: 100%;
+}
+.banner-sub .button-slider.button-previous,
+.banner-sub .button-slider.button-next {
+  z-index: 999 !important;
+  display: block !important;
+}
+@media screen and (max-width: 1024px) {
+  .banner-sub .box-banner-sub .img-banner-sub{
+    top: auto !important;
+    left: auto!important;
+    right: 6%;
+    bottom: 0;
+    width: 40%;
+  }
+  .banner-sub .box-banner-sub .cont-banner-sub h2, .banner-sub .box-banner-sub .cont-banner-sub h2 p{
+    font-size: 64px;
+  }
+  .banner-sub .box-banner-sub .img-banner-sub img{
+    width: 100%;
+  }
+  .banner-sub .box-banner-sub .cont-banner-sub{
+    top: 30% !important;
+    left: 6%!important;
+  }
+  .banner-sub .cont-banner-sub h2{
+    font-size: 64px;
+  }
+  .banner-sub .cont-banner-sub p{
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .banner-sub .box-banner-sub .cont-banner-sub h2, .banner-sub .box-banner-sub .cont-banner-sub h2 p{
+    font-size: 55px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .banner-sub .box-banner-sub .cont-banner-sub h2, .banner-sub .box-banner-sub .cont-banner-sub h2 p{
+    font-size: 50px;
+  }
+  .banner-sub .cont-banner-sub p{
+    font-size: 24px;
+    padding-left: 0;
+  }
+  .banner-sub .box-banner-sub .img-banner-sub{
+    width: 40%;
+    right: 4%;
+  }
+  .banner-sub .box-banner-sub .cont-banner-sub{
+    left: 4%!important;
+    width: auto;
+    top: 22% !important;
+  }
+  .banner-sub .box-banner-sub{
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .banner-sub{
+    margin-top: 60px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .banner-sub .box-banner-sub .cont-banner-sub h2, .banner-sub .box-banner-sub .cont-banner-sub h2 p{
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 568px){
+  .banner-sub .box-banner-sub .img-banner-sub{
+    width: 40%;
+  }
+  .banner-sub .box-banner-sub .cont-banner-sub {
+    top: 26% !important;
+    width: auto;
+  }
+  .banner-sub .box-banner-sub .cont-banner-sub h2, .banner-sub .box-banner-sub .cont-banner-sub h2 p{
+    font-size: 34px;
+  }
+  .banner-sub .cont-banner-sub p{
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+}
+@media screen and (max-width: 480px){
+  .banner-sub{
+    padding-bottom: 35px !important;
+  }
+  .banner-sub .box-banner-sub .cont-banner-sub {
+    top: 25% !important;
+  }
+  .banner-sub .box-banner-sub .cont-banner-sub h2, .banner-sub .box-banner-sub .cont-banner-sub h2 p{
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 360px){
+  .banner-sub .box-banner-sub .cont-banner-sub {
+    top: 20% !important;
+  }
+  .banner-sub .box-banner-sub .cont-banner-sub h2, .banner-sub .box-banner-sub .cont-banner-sub h2 p{
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 320px){
+  .banner-sub .box-banner-sub .cont-banner-sub {
+    top: 22% !important;
+  }
+  .banner-sub .box-banner-sub .cont-banner-sub h2, .banner-sub .box-banner-sub .cont-banner-sub h2 p{
+    font-size: 22px;
+  }
+}

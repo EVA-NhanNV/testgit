@@ -1,0 +1,315 @@
+body.page header .navbar ul li a{
+  color: #fff;
+}
+body.page header.hd-scroll .navbar ul li a{
+  color: #000;
+}
+body.page{
+	background: #fff;
+}
+.banner-sub{
+	position: relative;
+    visibility: visible;
+}
+.container-sub{
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 999;
+}
+.section-subpage{
+	background: url("../../asset/images/bg_opct.png") no-repeat scroll center bottom;
+	margin-top: 65px;
+	padding-bottom: 130px;
+}
+.int-sub-page, .title-sub-page{
+	text-align: center;
+}
+.section .title-sub-page{
+	font-size: 46px;
+	line-height: 1;
+	margin-bottom: 50px;
+}
+.int-sub-page p{
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 1.6;
+	letter-spacing: 3px;
+}
+.int-sub-page p span{
+	font-weight: normal;
+	letter-spacing: normal;
+	margin-left: -15px;
+	margin-right: -15px;
+}
+.int-sub-page p small{
+	background: #0081cc;
+    font-family: "DINCondensed-bold", sans-serif;
+    font-size: 20px;
+    line-height: 1;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    padding: 3px;
+    vertical-align: top;
+    letter-spacing: normal;
+    margin: 10px 4px 0 4px;
+}
+.list-info{
+	margin: 60px 0;
+}
+.list-info li{
+	float: left;
+	width: 20%;
+	text-align: center;
+	color: #0081cc;
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 1;
+}
+.num-info{
+	background: #0081cc;
+    font-family: "DINCondensed-bold", sans-serif;
+    font-size: 25px;
+    line-height: 1;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 32px;
+    height: 32px;
+    padding: 4px;
+    margin-right: 5px;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+.box-info-sub{
+	position: relative;
+}
+.box-info-sub .tit-box-sub{
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 1.25;
+	color: #0081cc;
+}
+.box-info-sub > span{
+	position: absolute;
+	font-size: 20px;
+	line-height: 1.25;
+	font-weight: bold;
+	width: 100%;
+	text-align: center;
+	top: 0;
+}
+.main-list-info{
+	margin-top: 15px;
+}
+.main-list-info li{
+	display: table;
+	width: 100%;
+}
+.main-list-info li .left-info, .main-list-info li .right-info{
+	display: table-cell;
+	vertical-align: middle;
+	padding: 22px 0 22px 50px;
+}
+.main-list-info li .left-info{
+	width: 30%;
+	font-size: 18px;
+	font-weight: bold;
+	border-right: 1px solid #0081cc;
+}
+.main-list-info li .right-info{
+	width: 70%;
+}
+.main-list-info li .right-info p{
+	font-size: 18px;
+	line-height: 1.25;
+}
+.main-list-info li{
+	border-top: 1px solid #0081cc;
+}
+.main-list-info li:nth-child(2n+1){
+	background: rgba(0, 129, 204, 0.1);
+}
+.main-list-info li:last-child{
+	border-bottom: 1px solid #0081cc;
+}
+.btn-sub-page{
+	margin-top: 90px;
+	text-align: center;
+}
+.btn-sub-page > p{
+	font-size: 26px;
+	line-height: 1.25;
+	font-weight: bold;
+}
+.btn-sub-page a{
+	background: #0081cc;
+	font-size: 22px;
+	line-height: 1;
+	display: block;
+	width: 100%;
+	max-width: 480px;
+	color: #fff;
+	margin: 35px auto 0;
+	padding: 27px 0px;
+	height: 90px;
+	text-decoration: none;
+}
+.btn-sub-page a span{
+	background: url("../../asset/images/icon_mail.png") no-repeat scroll left center;
+	display: inline-block;
+	font-size: 22px;
+	line-height: 1;
+	padding: 5px 5px 5px 55px;
+}
+body.page footer{
+	padding-top: 10px;
+}
+body.mac .int-sub-page p small{
+	padding-top: 6px;
+}
+body.mac .num-info{
+	padding-top: 6px;
+}
+body.IE .int-sub-page p small{
+	margin-top: 5px;
+}
+
+@media screen and (max-width: 768px) {
+	.section-subpage{
+		margin-top: 40px;
+		background-size: contain;
+		padding-bottom: 60px;
+	}
+	.container-sub{
+		padding: 0 10px;
+	}
+	.int-sub-page p {
+	    font-size: 22px;
+	}
+	.section .title-sub-page {
+	    font-size: 40px;
+	    margin-bottom: 30px;
+	}
+	.int-sub-page p small{
+		margin-top: 2px;
+		padding-top: 5px;
+	}
+	.list-info li{
+		font-size: 18px;
+	}
+	.num-info{
+	    font-size: 20px;
+	    width: 28px;
+    	height: 28px;
+    	margin-right: 0px;
+    	padding-top: 6px;
+    	margin-top: -2px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.int-sub-page p {
+	    font-size: 20px;
+	}
+	.section .title-sub-page {
+	    font-size: 34px;
+	}
+	.list-info li{
+		font-size: 14px;
+	}
+	.num-info {
+	    font-size: 17px;
+	    width: 24px;
+	    height: 24px;
+	}
+	.main-list-info li .left-info, .main-list-info li .right-info{
+		padding-left: 30px;
+	}
+}
+@media screen and (max-width: 568px){
+	.list-info li{
+		width: 33.3333%;
+		text-align: left;
+		margin-bottom: 15px;
+	}
+}
+@media screen and (max-width: 480px) {
+	.list-info li{
+		font-size: 13px;
+	}
+	.num-info{
+	    font-size: 14px;
+	    width: 20px;
+    	height: 20px;
+	}
+	.main-list-info li .right-info p {
+	    font-size: 14px;
+	}
+	.main-list-info li .left-info, .main-list-info li .right-info{
+		padding: 10px 5px 8px;
+	}
+	.main-list-info li .left-info{
+		width: 40%;
+		font-size: 14px;
+	}
+	.main-list-info li .right-info{
+		width: 60%;
+	}
+	.list-info {
+	    margin: 30px 0;
+	}
+	.section-subpage {
+	    margin-top: 0;
+	}
+	.btn-sub-page a span{
+		font-size: 16px;
+	    padding: 5px 5px 5px 30px;
+    	background-size: 25px 16px;
+	}
+	.btn-sub-page{
+		margin-top: 50px;
+	}
+	.btn-sub-page a{
+		padding: 17px 0px;
+   		height: 60px;
+   		margin-top: 25px;
+   		width: 94%;
+	}
+	.btn-sub-page > p {
+	    font-size: 16px;
+	    line-height: 1.25;
+	    font-weight: bold;
+	}
+	.box-info-sub > span{
+    	margin-left: 60px;
+	}
+}
+@media screen and (max-width: 375px) {
+	.section .title-sub-page {
+	    font-size: 28px;
+	    margin-bottom: 20px;
+	}
+	.int-sub-page p {
+	    font-size: 14px;
+	}
+	.int-sub-page p span{
+		margin-left: -5px;
+		margin-right: -5px;
+	}
+	.int-sub-page p small{
+	    font-size: 14px;
+        padding: 4px;
+        width: 20px;
+	    height: 20px;
+	    padding-top: 6px;
+	    margin-top: 0px;
+	    font-weight: bold;
+	}
+}

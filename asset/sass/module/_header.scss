@@ -1,0 +1,58 @@
+header{
+	position: fixed;
+	z-index: 9999;
+	top: 0;
+	left: 0;
+	padding: 20px 0;
+	width: $full-width;
+	-webkit-transition: $anm-effect;
+    -moz-transition: $anm-effect;
+    transition: $anm-effect;
+	.logo{
+		width: 20%;
+		a, img{
+			display: block;
+			line-height: normal;
+		}
+	}
+	.navbar{
+		width: 80%;
+		text-align: right;
+		padding: 25px 0 0;
+		ul{
+			overflow: hidden;
+			li{
+				display: inline-block;
+				text-align: center;
+				& + li{
+					margin-left: -4px;
+				}
+				&:last-child a{
+					padding-right: 0;
+				}
+				a{
+					font-family: $eng-font;
+					display: block;
+					color: $color;
+					text-decoration: none;
+					font-size: 18px;
+					font-weight: bold;
+					line-height: 1.5;
+					letter-spacing: 1.5px;
+					padding: 0 20px;
+					small{
+						font-family: $japan-font;
+						display: block;
+						font-size: 11px;
+						line-height: 1;
+						letter-spacing: 0;
+					}
+				}
+			}
+		}
+	}
+	&.hd-scroll{
+		background: $bg-color-nav;
+		padding: 10px 0;
+	}
+}
